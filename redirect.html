@@ -5,15 +5,15 @@
 <title>Redirect</title>
 <script type="text/javascript">
 
-var apple = ["iPhone", "iPad", "iPod", "iPhone Simulator"];
-var uAgent = navigator.platform;
-if(apple.indexOf(uAgent) >= 0) {
-    window.location = "https://itunes.apple.com/us/app/car2go/id514921710";
-} else if(navigator.userAgent.match(/android/i)) {
-    window.location = "https://play.google.com/store/apps/details?id=com.car2go&hl=en_U";
-} else {
-	window.location = "https://www.car2go.com/";
-}
+	var apple = ["iPhone", "iPad", "iPod", "iPhone Simulator"];
+	var uAgent = navigator.platform;
+	if(apple.indexOf(uAgent) >= 0) {
+		window.location = "https://itunes.apple.com/us/app/car2go/id514921710";
+	} else if(navigator.userAgent.match(/android/i)) {
+		window.location = "https://play.google.com/store/apps/details?id=com.car2go&hl=en_U";
+	} else {
+		window.location = "https://www.car2go.com/";
+	}
  
 </script>
 </body>
